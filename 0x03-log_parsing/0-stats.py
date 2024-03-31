@@ -40,7 +40,7 @@ def main():
                 print_statistics(total_size, status_codes)
 
     except KeyboardInterrupt:
-        pass
+        pass #handle keybARD INTERUPTION
 
     print_statistics(total_size, status_codes)
 
