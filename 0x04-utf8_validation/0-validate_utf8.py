@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 def validUTF8(data):
     # Helper function to check if a byte is a valid UTF-8 continuation byte
