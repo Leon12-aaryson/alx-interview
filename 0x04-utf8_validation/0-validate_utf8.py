@@ -3,6 +3,7 @@
 Module to validate the utf encoding of characters
 """
 
+
 def validUTF8(data):
     """
     Check if a list of integers represents a valid UTF-8 encoding.
