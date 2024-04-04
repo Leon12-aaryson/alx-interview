@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+Module to validate the utf encoding of characters
+"""
 
 def validUTF8(data):
     """
