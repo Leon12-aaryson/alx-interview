@@ -14,7 +14,8 @@ def generate_solutions(row, column):
         - column: The total number of columns (size of the chessboard).
 
     Returns:
-        A list of solutions, where each solution is represented as a list of queen positions.
+        A list of solutions, where each solution is represented
+        as a list of queen positions.
     '''
     solution = [[]]
     for queen in range(row):
@@ -62,7 +63,8 @@ def is_safe(q, x, array):
 
 def init():
     '''
-    Initializes the script and obtains the size of the chessboard (N) from command-line arguments.
+    Initializes the script and obtains the size of the chessboard (N)
+    from command-line arguments.
 
     Returns:
         The size of the chessboard.
@@ -83,7 +85,8 @@ def init():
 
 def n_queens():
     '''
-    Main logic of the script for solving the N-Queens problem. Generates and prints all possible solutions.
+    Main logic of the script for solving the N-Queens problem.
+    Generates and prints all possible solutions.
     '''
     n = init()
     # generate all solutions
